@@ -46,4 +46,9 @@ function densityProfileVsLatticeIndexPlot(eigenVectors, randomψᵢ = false)
         ylims = (Ymin, Ymax),
     )
 end
+
+function dψdt(matrix, ψ₁)
+    return matrix * ψ₁
+end
+
 end
