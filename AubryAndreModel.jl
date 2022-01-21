@@ -47,8 +47,4 @@ function densityProfileVsLatticeIndexPlot(eigenVectors, randomψᵢ = false)
     )
 end
 
-function dψdt(matrix, ψ₁)
-    return matrix * ψ₁
-end
-
 end
